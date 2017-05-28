@@ -1,11 +1,6 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- */
-'use strict';
-import React, {
+import React, { Component } from 'react';
+import {
   AppRegistry,
-  Component,
   StyleSheet,
   Text,
   View,
@@ -119,11 +114,9 @@ class Button extends Component {
   render() {
     let { callToast, type } = this.props
     return (
-      <View style={ styles.buttonContainer }>
-        <TouchableHighlight onPress={ callToast } underlayColor="ddd" style={{ height:60, justifyContent: 'center', alignItems: 'center', backgroundColor: 'ededed', borderWidth: 1, borderColor: 'ddd' }}>
+        <TouchableHighlight onPress={ callToast } style={{ height:60, marginTop: 10, justifyContent: 'center', alignItems: 'center', backgroundColor: '#ededed', borderWidth: 1, borderColor: '#ddd' }}>
           <Text>Call { type } toast.</Text>
         </TouchableHighlight>
-      </View>
     )
   }
 }
@@ -131,10 +124,12 @@ class Button extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'space-between',
     marginTop: 70
   },
   buttonContainer: {
-    marginTop:10
+    marginTop:10,
   }
 });
 
