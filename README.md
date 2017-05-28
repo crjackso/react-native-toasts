@@ -1,6 +1,6 @@
 # React Native Toasts
 
-> This code goes with my Medium post [here](https://medium.com/@dabit3/creating-a-custom-toast-module-for-react-native-770fd1c0dcf5#.kl7qipbwk).
+> This code goes with [Nader Dabit's](https://twitter.com/dabit3) Medium post [here](https://medium.com/@dabit3/creating-a-custom-toast-module-for-react-native-770fd1c0dcf5#.kl7qipbwk).
 
 ### To get started with this project, do the following:
 
